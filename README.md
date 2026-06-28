@@ -86,18 +86,6 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Run Order
-
-```bash
-python phase1_data_loading.py      # Step 1 — raw data exploration
-python phase2_data_cleaning.py     # Step 2 — cleaning → stroke_clean.csv
-python phase3_eda.py               # Step 3 — analytics & visualizations
-python phase4_model_training.py    # Step 4 — train 9 models, compare
-python phase5_prediction.py        # Step 5 — inference demo
-```
-
----
-
 ## 🧹 Data Cleaning Summary
 
 | Issue | Treatment |
